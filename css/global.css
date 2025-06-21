@@ -38,3 +38,18 @@ img {
     max-width: initial !important;
   }
 }
+
+#botao-topo {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  color: #141414;
+  background: #ccc;
+  border-radius: 20px;
+  display: none; /* O botão é inicialmente oculto */
+}
+
+.show-botao-topo {
+  display: block; /* O botão se torna visível quando esta classe é adicionada */
+}
