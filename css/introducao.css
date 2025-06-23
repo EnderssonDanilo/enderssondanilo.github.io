@@ -32,6 +32,10 @@
   color: #525252;
 }
 
+.introducao .img-introducao {
+  border-radius: 50%;
+}
+
 @media (max-width: 1000px) {
   .introducao h1 {
     font-size: 3rem;
